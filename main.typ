@@ -1,6 +1,8 @@
 #import "ieee.typ": *
-#show: ieee.with(
+#import "apa.typ": *
+#show: apa.with(
 	title: "Agile Methods in Open Source Software Development",
+	running-head: "Agile Methods in Open Source",
 	authors: (
 		(
 			name: "Carson McManus",
@@ -32,6 +34,8 @@
 		),
 	),
 	bibliography-file: "bibfile.bib",
+	course: "SSW 555: Agile Methods for Software Development",
+	instructor: "Harun Gultekin",
 )
 
 = Introduction
