@@ -60,7 +60,11 @@ Despite these alternative management models, numerous expansive and widely utili
 
 == Comparing Agile and Open Source Management Styles
 
-== Case Study: VSCode
+=== Case Study: Visual Studio Code
+
+The Visual Studio Code project, commonly referred to as VSCode, stands as a open source integrated development environment (IDE) crafted by Microsoft. #cite(<Visual_Studio_Code>) In alignment with agile methodologies, the project adopts a transparent approach by publicly disclosing its roadmap and monthly iteration plans on GitHub. This transparent sharing of insights and plans enables not only an open view of forthcoming developments but also encourages community engagement and feedback. The iterative nature of VSCode's development, facilitated by these public iterations, allows for rapid adjustments, enhancements, and the integration of user suggestions or reported issues within short time frames. This agile method empowers continuous improvement and iterative development, fostering a more responsive and user-oriented evolution of the software.
+
+The substantial proportion of VSCode users being developers not only delineates a unique demographic but significantly bolsters the agile attributes of the project. This amalgamation of users as potential contributors streamlines the feedback collection process, expediting its integration into the project. The inherent capability of community members to directly contribute to the project materializes as an efficient mechanism for rapidly incorporating user feedback, ultimately fortifying the project's agile nature.
 
 == Case Study: Keptn
 
