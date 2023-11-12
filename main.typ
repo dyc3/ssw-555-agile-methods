@@ -38,9 +38,24 @@
 	instructor: "Harun Gultekin",
 )
 
+== Abstract 
+// do this last to summarize paper
 == Introduction
-
+// introduce the problem statement, our methods for finding papers, and what our paper will discuss
 == What is Agile?
+Agile Methodologies, while there are a multitude of strategies to follow, primarly have a shared goal of increasing the rate of development for development teams @Coram_2005. Software projects have many frequent changes throughout the life cycle. Developers needed a way to better handle these changes, which resulted in the creation of the Manifesto for Agile Software Development. The Manifesto emphasizes the value of the individual and interactions over tools and processes, and collaboration with the stakeholders over a negotiation. Functional software is also desired over solid documentation, as well as responsiveness and adaption to a situation rather than following a plan. @Eckstein_2004. To put it simply, the quality and efficiency of development is the goal of agile methods. Methods like Extreme Programming, SCRUM, Dynamic System Development Method (DSDM), and Test-Driven Development are popular in today's technology sector, all techniques designed for rapid development to deliver a product. 
+
+=== Extreme Programming
+The objective of Extreme Programming (XP) is to get the project done in a straightforward manner. Compared to the highly decorative process of the waterfall model, XP relies on communication, feedback and simplicity @Coram_2005. XP works best for small, localized teams so the use of XP would not be benefical due to the nature of open source development.
+
+=== Test-Driven Development
+In Test-Driven Development, or TDD, requires tests to be written before the code itself is written. The design of the software changes through the tests as the rapid cycle of adding new tests, passing those tests and cleaning the code by refactoring is executed ("test-code-refactor") @Turnu_2006. It is imperative that the tests are automated to ensure that there is no technical debt from manually running tests. If they are automated, minimal effort is required to be run over and over again. The debugging process in TDD is simplified because bugs can be found earlier with the tests, making it easier and quicker to develop a full project @Turnu_2006.
+
+=== SCRUM 
+// describe scrum & implementation
+
+=== Dynamic System Development Method
+// describe dsdm 
 
 == Typical Open Source Development
 
@@ -59,10 +74,15 @@ It is noteworthy, however, that not all open-source projects adhere to this mana
 Despite these alternative management models, numerous expansive and widely utilized open-source projects persist under the ultimate guidance of a Benevolent Dictator. A prime illustration of this is the Linux kernel, where Linus Torvalds assumes the role of the Benevolent Dictator For Life. However, beneath his purview exists a hierarchical structure comprising maintainers tasked with overseeing distinct facets of the kernel. These maintainers assume the responsibility of scrutinizing and endorsing the quality of submitted code as it ascends the chain of command, ultimately reaching Linus Torvalds @user229044_2010 @How-Linux-is-Built.
 
 == Comparing Agile and Open Source Management Styles
+Agile and Open Source management styles are quite similar in a few different aspects. Regarding the process of developing software, while agile methods have predefined processes and sequences, numerous open source projects also have structured processes @Eckstein_2004. Agile development requires close collaboration within the team (in methods of pair programming, review, etc), whereas open source teams are scattered in different parts of the world, working asyncronously. 
+// discuss customer/stakeholder interactions, early delievery and feedback, team structure
 
+== The Impact of Agile Methods on Open Source Development
+As Agile Methodologies integrate into mainstream development due to the positive effects on code quality and quick response time,aspects of agile are emerging into open source development. A trend in open source projects appear to be the adoption of Testing and Continuous Integration. The implementation of automated tests establishes trust among the developers involved with the open source project because passing tests demonstrates that their code works, and that the code does not have to be rewritten by other developers @Turnu_2006.
+// expand on this, cite maye 3-4 different more sources (check out Coram_2005)
 === Case Study: Visual Studio Code
 
-The Visual Studio Code project, commonly referred to as VSCode, stands as a open source integrated development environment (IDE) crafted by Microsoft. #cite(<Visual_Studio_Code>) In alignment with agile methodologies, the project adopts a transparent approach by publicly disclosing its roadmap and monthly iteration plans on GitHub. This transparent sharing of insights and plans enables not only an open view of forthcoming developments but also encourages community engagement and feedback. The iterative nature of VSCode's development, facilitated by these public iterations, allows for rapid adjustments, enhancements, and the integration of user suggestions or reported issues within short time frames. This agile method empowers continuous improvement and iterative development, fostering a more responsive and user-oriented evolution of the software.
+The Visual Studio Code project, commonly referred to as VSCode, stands as a open source integrated development environment (IDE) crafted by Microsoft @Visual_Studio_Code. In alignment with agile methodologies, the project adopts a transparent approach by publicly disclosing its roadmap and monthly iteration plans on GitHub. This transparent sharing of insights and plans enables not only an open view of forthcoming developments but also encourages community engagement and feedback. The iterative nature of VSCode's development, facilitated by these public iterations, allows for rapid adjustments, enhancements, and the integration of user suggestions or reported issues within short time frames. This agile method empowers continuous improvement and iterative development, fostering a more responsive and user-oriented evolution of the software.
 
 The substantial proportion of VSCode users being developers not only delineates a unique demographic but significantly bolsters the agile attributes of the project. This amalgamation of users as potential contributors streamlines the feedback collection process, expediting its integration into the project. The inherent capability of community members to directly contribute to the project materializes as an efficient mechanism for rapidly incorporating user feedback, ultimately fortifying the project's agile nature.
 
