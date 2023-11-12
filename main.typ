@@ -89,4 +89,8 @@ The substantial proportion of VSCode users being developers not only delineates 
 
 == Case Study: Keptn
 
+Keptn, an open-source Kubernetes observability tool initially conceived by Johannes Bräuer and presently overseen by Dynatrace, strategically employs agile methodologies in its project management. To harmonize the open-source framework with agile practices, Keptn segregates its developer cohort into distinct groups: the "core" team, comprising Dynatrace employees, and a "contributor team." The core team rigorously engages in biweekly sprints, orchestrating their progress from a comprehensive product backlog accessible through their GitHub repository. Given the transient nature of contributor involvement, contributors operate independently from the sprints, leveraging a Kanban board that grants them flexibility in their task selection. @Bräuer_2021 
+
+This structural dichotomy is deliberately crafted to enhance organizational efficiency in release planning. The sprints meticulously define the assured components of each release, while contributions from the contributor team serve as supplementary enhancements, augmenting the final release composition. @Bräuer_2021
+
 == Conclusion
