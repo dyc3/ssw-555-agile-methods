@@ -1,7 +1,7 @@
 #import "ieee.typ": *
 #import "apa.typ": *
 #show: apa.with(
-	title: "Agile Methods in Open Source Software Development",
+	title: "Impact of Agile Methodologies on Open Source Software Development: A Comparative Analysis",
 	running-head: "Agile Methods in Open Source",
 	authors: (
 		(
@@ -36,12 +36,14 @@
 	bibliography-file: "bibfile.bib",
 	course: "SSW 555: Agile Methods for Software Development",
 	instructor: "Harun Gultekin",
+	abstract: [
+		This paper delves into the intricate relationship between agile methodologies and open-source software development, recognizing the paramount role that open-source software plays in contemporary computing. The exploration begins with a comprehensive overview of agile methods, elucidating their principles and practices. Subsequently, the paper delineates the conventional open-source development process, setting the stage for a meticulous comparison of the management styles inherent in agile and open-source development. Noteworthy open-source projects that incorporate agile methods are scrutinized, providing concrete examples for analysis. The study culminates in a thorough examination of the discernible impact of agile methodologies on the overarching landscape of open-source development. This research contributes to the evolving discourse surrounding software development methodologies, shedding light on the synergies and disparities between agile practices and the collaborative ethos intrinsic to open-source software development.
+	]
 )
 
-== Abstract 
-// TODO: do this last to summarize paper
 == Introduction
-// TODO: introduce the problem statement, our methods for finding papers, and what our paper will discuss
+Open-source software (OSS) constitutes a pivotal component of contemporary computing, prompting considerable scholarly interest in the methodologies governing its development and maintenance. This paper aims to expound upon the ramifications of agile methodologies on open-source software development. The discourse commences with an exploration of agile methods, followed by an examination of the conventional open-source development process. Subsequently, an analysis comparing the management styles inherent in agile and open-source development is presented. Additionally, the paper scrutinizes selected open-source projects that incorporate agile methods. Ultimately, a comprehensive assessment is undertaken to elucidate the profound impact of agile methodologies on the realm of open-source development.
+
 == What is Agile?
 Agile Methodologies, while there are a multitude of strategies to follow, primarly have a shared goal of increasing the rate of development for development teams. @Coram_2005 Software projects have many frequent changes throughout the life cycle as a result of changing user requirements. Developers needed a way to better handle these changes, which resulted in the creation of the Manifesto for Agile Software Development. The Manifesto emphasizes the value of the individual and interactions over tools and processes, and collaboration with the stakeholders over a negotiation. Functional software is also desired over solid documentation, as well as responsiveness and adaption to a situation rather than following a plan. @Eckstein_2004 To put it simply, the quality and efficiency of development is the goal of agile methods. Methods like Extreme Programming, SCRUM, Dynamic System Development Method (DSDM), and Test-Driven Development are popular in today's technology sector, all techniques designed for rapid development to deliver a product. 
 
