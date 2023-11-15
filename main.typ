@@ -32,6 +32,13 @@
 			organization: [Stevens Institute of Technology],
 			location: [Hoboken, NJ],
 		),
+		(
+			name: "Adam Woo",
+			email: "awoo2@stevens.edu",
+			department: [School of Systems and Enterprises],
+			organization: [Stevens Institute of Technology],
+			location: [Hoboken, NJ],
+		)
 	),
 	bibliography-file: "bibfile.bib",
 	course: "SSW 555: Agile Methods for Software Development",
@@ -84,7 +91,7 @@ The way agile and open source teams function are quite similar. Self-organizatio
 
 
 == The Impact of Agile Methods on Open Source Development
-As Agile Methodologies integrate into mainstream development due to the positive effects on code quality and quick response time,aspects of agile are emerging into open source development. A trend in open source projects appear to be the adoption of Testing and Continuous Integration. The implementation of automated tests establishes trust among the developers involved with the open source project because passing tests demonstrates that their code works, and that the code does not have to be rewritten by other developers. @Turnu_2006
+As Agile Methodologies integrate into mainstream development due to the positive effects on code quality and quick response time, aspects of agile are emerging into open source development. A trend in open source projects appear to be the adoption of Testing and Continuous Integration. The implementation of automated tests establishes trust among the developers involved with the open source project because passing tests demonstrates that their code works, and that the code does not have to be rewritten by other developers. @Turnu_2006
 // TODO: expand on this, cite maye 3-4 different more sources (check out Coram_2005)
 
 === Case Study: Visual Studio Code
@@ -100,3 +107,15 @@ Keptn, an open-source Kubernetes observability tool initially conceived by Johan
 This structural dichotomy is deliberately crafted to enhance organizational efficiency in release planning. The sprints meticulously define the assured components of each release, while contributions from the contributor team serve as supplementary enhancements, augmenting the final release composition. @Bräuer_2021
 
 == Conclusion
+
+Agile methodologies, characterized by their emphasis on flexibility, adaptability, and collaboration, have forged a symbiotic relationship with open-source software development, a paradigm driven by community participation and shared ownership. This convergence has ushered in a new era of software development, one that prioritizes responsiveness to user needs, continuous improvement, and an unwavering commitment to quality.
+
+Open-source software projects, by their very nature, demand a high degree of flexibility and adaptability. As a distributed community of developers, contributors from around the globe come together to build and maintain software, often under unpredictable circumstances. Agile methodologies, with their emphasis on incremental development and iterative releases, provide a well-suited framework for managing this dynamic environment.
+
+The collaborative nature of open-source software development aligns perfectly with the core values of agile methodologies. Frequent interactions between developers, testers, and users foster a sense of shared ownership and responsibility, ensuring that the software evolves in the right direction. Agile practices, such as pair programming and code reviews, promote knowledge sharing and collective problem-solving, further strengthening the collaborative spirit of open-source projects.
+
+Agile methodologies have also had a positive impact on the quality of open-source software. The emphasis on testing and continuous integration, hallmarks of agile development, has led to a more rigorous approach to software quality assurance. This has resulted in a significant improvement in the overall quality and stability of open-source software, making it more attractive to a wider range of users.
+
+The interactions between agile methodologies and open-source software development is a testament to the power of collaboration and adaptability in the modern software development landscape. By embracing these principles, open-source projects have not only produced high-quality software but have also fostered a community of passionate developers who are constantly pushing the boundaries of innovation.
+
+As the software development landscape continues to evolve, understanding and navigating the interactions between agile methods and open-source development will become increasingly crucial for fostering innovation, responsiveness, and sustained growth in the ever-dynamic world of technology.
