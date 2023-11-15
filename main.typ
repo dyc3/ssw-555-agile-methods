@@ -91,7 +91,7 @@ The Visual Studio Code project, commonly referred to as VSCode, stands as a open
 
 The substantial proportion of VSCode users being developers not only delineates a unique demographic but significantly bolsters the agile attributes of the project. This amalgamation of users as potential contributors streamlines the feedback collection process, expediting its integration into the project. The inherent capability of community members to directly contribute to the project materializes as an efficient mechanism for rapidly incorporating user feedback, ultimately fortifying the project's agile nature.
 
-== Case Study: Keptn
+=== Case Study: Keptn
 
 Keptn, an open-source Kubernetes observability tool initially conceived by Johannes Bräuer and presently overseen by Dynatrace, strategically employs agile methodologies in its project management. To harmonize the open-source framework with agile practices, Keptn segregates its developer cohort into distinct groups: the "core" team, comprising Dynatrace employees, and a "contributor team." The core team rigorously engages in biweekly sprints, orchestrating their progress from a comprehensive product backlog accessible through their GitHub repository. Given the transient nature of contributor involvement, contributors operate independently from the sprints, leveraging a Kanban board that grants them flexibility in their task selection. @Bräuer_2021 
 
