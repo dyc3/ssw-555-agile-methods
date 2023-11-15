@@ -102,7 +102,6 @@ In addition to Testing and CI, other Agile practices are also making their way i
 User-centric design is another Agile practice that open source projects are increasingly focusing on. By prioritizing user feedback and requirements, these projects ensure that their software meets the needs and expectations of end-users. Furthermore, Agile's flexible and adaptive planning approach is particularly beneficial for open source projects, which often need to pivot based on contributor availability, community interest, and technological shifts​​. @Muhammad_2021
 
 However, applying Agile methodologies in open source contexts is not without its challenges. Coordinating distributed teams, managing contributions from developers with varying expertise, and ensuring consistent communication are significant hurdles. To overcome these challenges, open source projects often tailor Agile practices to their specific environments, such as using asynchronous communication tools and flexible scheduling to accommodate contributors across different time zones. Establishing clear guidelines and documentation also plays a crucial role in effectively onboarding new contributors and maintaining project continuity​​​​.
-// TODO: expand on this, cite maye 3-4 different more sources (check out Coram_2005)
 
 === Case Study: Visual Studio Code
 
