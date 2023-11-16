@@ -120,6 +120,12 @@ Keptn, an open-source Kubernetes observability tool initially conceived by Johan
 
 This structural dichotomy is deliberately crafted to enhance organizational efficiency in release planning. The sprints meticulously define the assured components of each release, while contributions from the contributor team serve as supplementary enhancements, augmenting the final release composition. @Bräuer_2021
 
+== Case Study: Intelliware
+
+Intelliware is a Wi-Fi analyzing Android application that assesses the strength of a signal from a router. Created due to dissatisfaction with the range of WI-Fi analyzing applications available at the time, the app quickly rose to become one of the top tool applications in the Google Play Store. @Karantayer_2016
+
+Their success is largely credited to their robust development process. They embraced agile methodologies, incorporating continuous integration, extensive testing, direct customer feedback, and iterative improvements. Although initially not intended for public release, they listed the application and created a Github as a means of communication with customers after realizing the potential improvements it could deliver. Their demonstration of quality code was also a key aspect of the development process, and they set a standard for the open-source community that many other projects lacked. The hybrid between agile methodologies and open-sourcing played a pivotal role in the creation of a successful application that appeased user needs and expectations. @Karantayer_2016
+
 == Conclusion
 
 Agile methodologies, characterized by their emphasis on flexibility, adaptability, and collaboration, have forged a symbiotic relationship with open-source software development, a paradigm driven by community participation and shared ownership. This convergence has ushered in a new era of software development, one that prioritizes responsiveness to user needs, continuous improvement, and an unwavering commitment to quality.
