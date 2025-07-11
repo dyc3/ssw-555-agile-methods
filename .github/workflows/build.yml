@@ -11,10 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: yusancky/setup-typst@v2
-        id: setup-typst
+      - uses: typst-community/setup-typst@v2
         with:
-          version: "v0.9.0"
+          typst-version: "v0.9.0"
       - run: sudo apt-get install -y make
       - run: typst compile main.typ
       - run: typst compile apatest.typ
